@@ -2,9 +2,9 @@
   "miniapp": {
     "version": "1",
     "name": "top 10",
-    "iconUrl": "https://HOST.TLD/images/og/manifest/icon.png",
-    "homeUrl": "https://HOST.TLD",
-    "splashImageUrl": "https://HOST.TLD/images/og/splash.png",
+    "iconUrl": "https://top-10-nine.vercel.app/images/og/manifest/icon.png",
+    "homeUrl": "https://top-10-nine.vercel.app",
+    "splashImageUrl": "https://top-10-nine.vercel.app/images/og/splash.png",
     "splashBackgroundColor": "#000000",
     "subtitle": "top 10 casts",
     "description": "top 10 casts",
@@ -12,10 +12,10 @@
     "tagline": "top 10 casts",
     "ogTitle": "top 10 casts",
     "ogDescription": "top 10 casts",
-    "ogImageUrl": "https://HOST.TLD/images/og/manifest/og.png",
-    "castShareUrl": "https://HOST.TLD",
-    "heroImageUrl": "https://HOST.TLD/images/og/manifest/og.png",
-    "canonicalDomain": "HOST.TLD",
+    "ogImageUrl": "https://top-10-nine.vercel.app/images/og/manifest/og.png",
+    "castShareUrl": "https://top-10-nine.vercel.app",
+    "heroImageUrl": "https://top-10-nine.vercel.app/images/og/manifest/og.png",
+    "canonicalDomain": "top-10-nine.vercel.app",
     "requiredCapabilities": ["actions.viewCast", "actions.ready"],
     "tags": ["10", "10", "10", "10", "10"]
   }
