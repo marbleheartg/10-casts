@@ -1,16 +1,7 @@
 @import "tailwindcss";
 
-/* @font-face {
-  font-family: "8bitoperator JVE";
-  src: url("/fonts/8bitoperator-JVE.woff2") format("woff2"), url("/fonts/8bitoperator-JVE.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-} */
-
 @theme {
   --accent: oklch(0 0 0);
-  /* --8bit: "8bitoperator JVE", serif; */
 }
 
 @layer base {
@@ -24,7 +15,7 @@
   }
 
   h1 {
-    @apply font-bold text-xl pointer-events-none;
+    @apply font-bold text-xl pointer-events-none py-5;
   }
 
   img {
@@ -35,7 +26,8 @@
     @apply bg-white text-black px-3 py-1 pb-1.5 cursor-pointer rounded-lg;
   }
 
-  input[type="text"] {
+  input[type="text"],
+  input[type="search"] {
     @apply bg-white text-black w-full border px-3 py-2 pb-2.5 rounded-lg;
   }
   input[type="search"]::-webkit-search-decoration,

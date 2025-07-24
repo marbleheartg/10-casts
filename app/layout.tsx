@@ -2,7 +2,6 @@ import { Inter } from "next/font/google"
 import { ReactNode } from "react"
 import "./globals.css"
 import { MINIAPP, PROJECT_DESCRIPTION, PROJECT_TITLE } from "./lib/constants"
-import ImagesPreload from "./lib/imagesPreload"
 
 const inter = Inter({
   variable: "--inter",
@@ -24,10 +23,7 @@ export default function RootLayout({
         <meta name="description" content={PROJECT_DESCRIPTION} />
         <title>{PROJECT_TITLE}</title>
       </head>
-      <body className={`${inter.variable} antialiased`}>
-        {children}
-        <ImagesPreload />
-      </body>
+      <body className={`${inter.variable} antialiased`}>{children}</body>
     </html>
   )
 }
