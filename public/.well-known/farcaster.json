@@ -1,4 +1,9 @@
 {
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEwMjEyMTQsInR5cGUiOiJhdXRoIiwia2V5IjoiMHgzMTU3NDk3YjgyZUM5MUEyMzRmMTFFZTQ0NTUzRDJhMzAzZThkNTllIn0",
+    "payload": "eyJkb21haW4iOiJ0b3AtMTAtbmluZS52ZXJjZWwuYXBwIn0",
+    "signature": "FatWn9Z2311p2aS3eTaF1O8H2n0P/TwdtIidQ4I2ITMCfSkFXtl8YeF/82lnyZeb6L2RpWeDCfrhbpSnC+VdmBs="
+  },
   "miniapp": {
     "version": "1",
     "name": "top 10",
