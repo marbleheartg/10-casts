@@ -6,22 +6,22 @@
   },
   "miniapp": {
     "version": "1",
-    "name": "top 10",
-    "iconUrl": "https://top-10-nine.vercel.app/images/og/manifest/icon.png",
+    "name": "10 casts",
+    "iconUrl": "https://top-10-nine.vercel.app/images/og/icon.png",
     "homeUrl": "https://top-10-nine.vercel.app",
     "splashImageUrl": "https://top-10-nine.vercel.app/images/og/splash.png",
     "splashBackgroundColor": "#000000",
-    "subtitle": "top 10 casts",
-    "description": "top 10 casts",
+    "subtitle": "explore and collect",
+    "description": "explore and collect",
     "primaryCategory": "utility",
-    "tagline": "top 10 casts",
-    "ogTitle": "top 10 casts",
-    "ogDescription": "top 10 casts",
-    "ogImageUrl": "https://top-10-nine.vercel.app/images/og/manifest/og.png",
+    "tagline": "explore and collect",
+    "ogTitle": "explore and collect",
+    "ogDescription": "explore and collect",
+    "ogImageUrl": "https://top-10-nine.vercel.app/images/og/hero.png",
     "castShareUrl": "https://top-10-nine.vercel.app",
-    "heroImageUrl": "https://top-10-nine.vercel.app/images/og/manifest/og.png",
+    "heroImageUrl": "https://top-10-nine.vercel.app/images/og/hero.png",
     "canonicalDomain": "top-10-nine.vercel.app",
-    "requiredCapabilities": ["actions.viewCast", "actions.ready"],
-    "tags": ["10", "10", "10", "10", "10"]
+    "requiredCapabilities": ["actions.viewCast", "actions.viewProfile", "actions.ready"],
+    "tags": ["collect", "casts", "first", "popular", "10"]
   }
 }

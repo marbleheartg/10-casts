@@ -1,13 +1,13 @@
-const PROJECT_TITLE = "top 10"
+const PROJECT_TITLE = "10 casts"
 
-const PROJECT_DESCRIPTION = "top 10 casts"
+const PROJECT_DESCRIPTION = "explore and collect"
 
 const MINIAPP = {
   version: "next",
-  imageUrl: `https://${process.env.NEXT_PUBLIC_HOST}/images/og/cast/image.jpg`,
+  imageUrl: `https://${process.env.NEXT_PUBLIC_HOST}/images/og/cast.jpg`,
   aspectRatio: "3:2",
   button: {
-    title: "launch",
+    title: "collect",
     action: {
       type: "launch_miniapp",
       url: `https://${process.env.NEXT_PUBLIC_HOST}`,
