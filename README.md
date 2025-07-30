@@ -8,7 +8,7 @@ Search by username, see the top posts, and interact through the Farcaster Miniap
 
 ## 🌐 Live Demo
 
-[https://top-10-nine.vercel.app](https://top-10-nine.vercel.app)
+[https://farcaster.xyz/miniapps/pVCmkKzFkc63/10-casts](https://farcaster.xyz/miniapps/pVCmkKzFkc63/10-casts)
 
 ## ✨ Features
 
@@ -34,13 +34,13 @@ cd 10-casts
 bun install
 ```
 
-### 3. Run the tunnel and development server
+### 3. Run the tunnel
 
 ```bash
 bun run tunnel
 ```
 
-Save the tunnel link as NEXT_PUBLIC_HOST env variable
+### 4. Save the tunnel link as NEXT_PUBLIC_HOST env variable and run development server
 
 ```bash
 bun run dev
