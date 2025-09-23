@@ -1,3 +1,4 @@
+// @ts-ignore
 import { ClientContext, UserContext } from "@farcaster/miniapp-core/dist/context"
 import { MiniAppHostCapability } from "@farcaster/miniapp-node"
 import { create } from "zustand"

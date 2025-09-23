@@ -23,5 +23,8 @@
     "canonicalDomain": "top-10-nine.vercel.app",
     "requiredCapabilities": ["actions.viewCast", "actions.viewProfile", "actions.ready"],
     "tags": ["collect", "casts", "first", "popular", "10"]
+  },
+  "baseBuilder": {
+    "allowedAddresses": ["0xf1f2D5C38174B0df9C9eABc909d812540a9bb51B"]
   }
 }
